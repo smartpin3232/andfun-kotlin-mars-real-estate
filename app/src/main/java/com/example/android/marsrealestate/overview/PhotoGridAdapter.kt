@@ -19,9 +19,11 @@ package com.example.android.marsrealestate.overview
 
 import android.view.LayoutInflater
 import android.view.ViewGroup
+import androidx.lifecycle.Transformations
 import androidx.recyclerview.widget.DiffUtil
 import androidx.recyclerview.widget.ListAdapter
 import androidx.recyclerview.widget.RecyclerView
+import com.example.android.marsrealestate.R
 import com.example.android.marsrealestate.databinding.GridViewItemBinding
 import com.example.android.marsrealestate.network.MarsProperty
 
@@ -78,6 +80,7 @@ class PhotoGridAdapter( val onClickListener: OnClickListener ) :
         }
         holder.bind(marsProperty)
     }
+
 
     /**
      * Custom listener that handles clicks on [RecyclerView] items.  Passes the [MarsProperty]

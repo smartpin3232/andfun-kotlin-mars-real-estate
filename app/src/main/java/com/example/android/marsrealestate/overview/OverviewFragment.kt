@@ -94,6 +94,7 @@ class OverviewFragment : Fragment() {
                     R.id.show_buy_menu -> MarsApiFilter.SHOW_BUY
                     else -> MarsApiFilter.SHOW_ALL
                 }
+
         )
         return true
     }
