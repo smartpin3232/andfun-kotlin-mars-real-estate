@@ -1,0 +1,14 @@
+Q1.
+  Polymorphism是物件導向的觀念之一 ,即多個相同名稱的方法 ,傳入不同的參數 ,會執行不一樣的動作
+Q2.
+  onCreate: 於設定初始狀態時調用
+  onStart : Activity產生時調用
+  onResume: activity出現在手機上後調用
+  onPause : 使用者結束activity時調用
+  onStop  : activity消失後時調用
+  onDestroy:app結束的最後調用
+Q3.
+  jetpack是一個libraries ,提供許多元件幫助開發者簡化程式碼
+Q4.
+  一種異步程序,有助於管理長時間運行的任務 ,且有提供暫停的功能幫助調整程式的執行順序
+  
